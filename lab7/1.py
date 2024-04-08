@@ -26,7 +26,7 @@ while True:
     screen.blit(mickey, m_rect)
 
     c_sec = int(strftime("%S"))
-    c_min = int(strftime("%M"))
+    c_min = int(strftime("%H"))
 
     angle_s = -(c_sec / 60) * 360 + 90
     r_second = pygame.transform.rotate(left_hand, angle_s)
