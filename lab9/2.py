@@ -14,7 +14,7 @@ red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 
-pygame.display.set_caption('GeeksforGeeks Snakes')
+pygame.display.set_caption('Snakes')
 game_window = pygame.display.set_mode((window_x, window_y))
 fps = pygame.time.Clock()
 snake_position = [100, 50]
